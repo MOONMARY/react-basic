@@ -15,8 +15,8 @@ function Header({ title }) {
 Header.propTypes = {
   title: PropTypes.string,
 };
-function Nav() {
-  //   console.log("topics", topics);
+function Nav({ topics }) {
+  console.log("topics: ", topics);
   return (
     <nav>
       <ol>
